@@ -36,12 +36,12 @@ begin
 	begin
 	    wait for 10 ns; x_int <= "01";
 	    wait for 10 ns; y_int <= "01";
-	    wait for 10 ns; x_int <= "11"; y_int <= "00";
+	    wait for 10 ns; x_int <= "11"; y_int <= "00";s <= '1'
 	    wait for 10 ns; x_int <= "10"; y_int <= "11";
 	    wait for 10 ns; x_int <= "01";
 	    wait for 10 ns; x_int <= "01";
 	    wait for 10 ns; x_int <= "01";
-	    wait for 10 ns; x_int <= "01"; y_int <= "00";
+	    wait for 10 ns; x_int <= "01"; y_int <= "00";s <= '0';
 	    wait for 10 ns; x_int <= "01"; y_int <= "11";
 		wait for 20 ns;
 		
